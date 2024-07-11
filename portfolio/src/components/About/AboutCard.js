@@ -14,7 +14,7 @@ function AboutCard() {
             Software / Machine Learning Engineer who loves to transform ideas into reality using
             code.
             <br />
-            I have xperience creating
+            I have experience creating
             websites with ReactJs, JavaScript, Python (Flask, and Django), and Mobile Apps using Swift.
             I also have experience developing ML pipelines using TensorFlow, and PyTorch.
             <br />

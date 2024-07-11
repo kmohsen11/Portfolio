@@ -37,8 +37,9 @@ function Home() {
               <br />
               <strong>feel free to connect with me!</strong>
             </p>
-            <SocialMedia />
+           
           </Col>
+         
         </Row>
       </Container>
     </section>

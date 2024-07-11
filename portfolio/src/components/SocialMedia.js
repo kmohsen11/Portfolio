@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -11,10 +8,10 @@ function SocialMedia() {
     <ul className="home-about-social-links">
       <li className="social-icons">
         <a
-          href= "https://github.com/kmohsen11"
+          href="https://github.com/kmohsen11"
           target="_blank"
           rel="noreferrer"
-          className="icon-colour  home-social-icons"
+          className="icon-colour home-social-icons"
         >
           <AiFillGithub className="social-icon" />
         </a>
@@ -24,12 +21,11 @@ function SocialMedia() {
           href="https://www.linkedin.com/in/khaledahmed1911/"
           target="_blank"
           rel="noreferrer"
-          className="icon-colour  home-social-icons"
+          className="icon-colour home-social-icons"
         >
           <FaLinkedinIn className="social-icon" />
         </a>
       </li>
-      
       <li className="social-icons">
         <a
           href="mailto:Khaled@uni.minerva.edu"
@@ -43,4 +39,5 @@ function SocialMedia() {
     </ul>
   );
 }
+
 export default SocialMedia;
