@@ -140,16 +140,31 @@ html {
     opacity: 0.9 !important;
   }
   
-  @media (max-width: 767px) {
-    .navbar {
-      padding: 1rem 2rem !important;
-      font-size: 1.4rem !important;
-      background-color: #343e47 !important;
+  @media (max-width: 600px) {
+    /* Navbar Section */
+    .navbar-nav .nav-link {
+      font-size: 14px; /* Adjusted font size for mobile view */
     }
-    .navbar-nav .nav-item a::after {
-      display: none !important;
+  
+    /* Footer Section */
+    .footer h3 {
+      font-size: 16px; /* Adjusted font size for mobile view */
+    }
+  
+    .footer p {
+      font-size: 14px; /* Adjusted font size for mobile view */
+    }
+  
+    /* Projects Section */
+    .project-section .project-title {
+      font-size: 18px; /* Adjusted font size for mobile view */
+    }
+  
+    .project-section .project-description {
+      font-size: 14px; /* Adjusted font size for mobile view */
     }
   }
+  
   .navbar-brand {
     color: rgb(250, 250, 250) !important;
   }
@@ -274,7 +289,10 @@ html {
   }
   .heading-type {
     padding-left: 15px;
-    text-align: "left";
+    
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
   }
   
   .heading {
@@ -290,11 +308,15 @@ html {
   .main-name {
     color: #414141;
   }
-  
+  .typewriter-container{
+    padding-left: 20px !important;
+    text-align: center;
+  }
   .Typewriter__wrapper {
     font-size: 2.2em !important;
     color: #414141 !important;
     font-weight: 600 !important;
+    
   }
   .Typewriter__cursor {
     font-size: 2.4em !important;
@@ -305,7 +327,8 @@ html {
     .Typewriter__wrapper {
       font-size: 1.4em !important;
       font-weight: 600 !important;
-      position: absolute !important;
+      padding-left: 20px !important;
+      
     }
     .Typewriter__cursor {
       display: none !important;
@@ -327,13 +350,14 @@ html {
   .home-about-section {
     position: relative;
     padding-bottom: 70px !important;
+    
   }
   
   .home-about-description {
     color: #414141 !important;
     padding-top: 100px !important;
     padding-bottom: 20px !important;
-    text-align: center;
+    
   }
   
   .home-about-body {
@@ -408,6 +432,14 @@ html {
   .social-icon {
     margin-top: 10px;
   }
+  
+  @media (max-width: 767px) {
+  
+    .socials {
+      text-align: center !important;
+    }
+  }
+  
   
   /* --------- */
   /* Footer */

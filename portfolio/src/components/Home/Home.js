@@ -1,7 +1,9 @@
+// src/components/Home.js
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import SocialMedia from "../SocialMedia";
 import TypeWriter from "./TypeWriter";
+
 function Home() {
   return (
     <section className="home-section" id="home">
@@ -14,17 +16,14 @@ function Home() {
                 👋🏻
               </span>
             </h1>
-
             <h1 className="heading-name">
               I'M
               <strong className="main-name"> Khaled Ahmed</strong>
             </h1>
-
-
-            <div className="heading-type">
-              <TypeWriter />
-            </div>
           </Col>
+         
+          <TypeWriter />
+     
         </Row>
       </Container>
 
@@ -37,9 +36,12 @@ function Home() {
               <br />
               <strong>feel free to connect with me!</strong>
             </p>
-           
           </Col>
-         
+        </Row>
+        <Row className="justify-content-center">
+          <Col md={8} className="text-center socials">
+            <SocialMedia />
+          </Col>
         </Row>
       </Container>
     </section>
